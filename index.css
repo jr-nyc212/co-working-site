@@ -2,10 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Montserrat, sans-serif;
+    color: #282828;
+}
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
 }
 
 ul {
-    background-color: #282828;
     list-style-type: none;
     margin: 0;
     padding: 25px;
@@ -21,11 +26,14 @@ li {
 .logo {
     font-size: 1.125rem;
     font-weight: 700;
-    color: #f5f5f5;
 }
 
 .icon {
     width: 25px;
+}
+
+.align-right {
+    margin: auto 0 auto auto;
 }
 
 
@@ -42,5 +50,4 @@ h1 {
 
 .item-img {
     width: 100%;
-    display: block;
 }
