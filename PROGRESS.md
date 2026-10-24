@@ -1,38 +1,43 @@
 # PROGRESS — Co-Working Site
 
-Updated: 2026-10-12 — Project scaffolding created. No code written yet.
+Updated: 2026-10-24 — Project complete. All five Scrimba lessons merged, portfolio
+README written, site deployed to Netlify. Nothing scheduled.
 
 ## Start here
 
-Read `CLAUDE.md` for the working rules, then jump to **Current milestone**.
-Shipped work is in `HISTORY.md`.
+Read `CLAUDE.md` for the working rules. Shipped work is in `HISTORY.md`. There is no
+active milestone; see **Standing items** if the site needs a redeploy.
 
 ## North Star
 
-<One or two sentences: what the finished project is and what it demonstrates.>
+A mobile-first coworking listings page (WeBarelyWork) built from a Scrimba design spec,
+published as portfolio work that shows flexbox, positioning, and responsive images.
 
 ## Roadmap
 
-- [>] M1 — Core: <definition of done in one line>
-- [ ] M2 — Stretch: <definition of done in one line>
-- [ ] M3 — Polish: portfolio README (`/scrimba-readme`), Netlify deploy.
+- [x] M1 — Core: page matches the design spec across all five lessons, each shipped
+  as its own issue, branch, and PR.
+- [x] M2 — Polish: head metadata, portfolio README (`/scrimba-readme`), Netlify deploy,
+  repo description and homepage set.
 
-## Current milestone — M1 Core
+## Current milestone
 
-**Definition of done:** <testable statement>.
+None. The project is closed.
 
-**Scopes (hill status)**
+**Next unit of work:** none.
 
-- setup — git repo, GitHub repo, head metadata (lang, charset, viewport, title) — uphill
-- <slug> — <name> — uphill
-- publish — issue, branch, commit, push, PR, merge — uphill
+## Standing items
 
-**Next unit of work:** setup.
+- Live site: https://co-working-site.netlify.app (Netlify site `co-working-site`).
+  Manual deploy only, no GitHub link, so pushes never trigger builds. To redeploy:
+  `npm run build` then `netlify deploy --prod --dir=dist`. Each production deploy
+  costs 15 of the Free plan's 300 monthly credits.
+- GitHub: https://github.com/jr-nyc212/co-working-site
 
 ## Backlog / Icebox
 
-- <ideas not scheduled>
+- Nothing scheduled.
 
 ## Blockers / risks
 
-- No design image in the starter folder. Screenshot the scrim into `docs/design/` first.
+- None.
